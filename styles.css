@@ -270,4 +270,10 @@ footer {
     width: 32%;
     align-self: flex-start;
   }
+  #subtitle {
+    font-family: "Ultra", serif;
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    text-align: start;
+  }
 }
