@@ -24,6 +24,8 @@ section {
   padding: 4em 0;
 }
 
+
+
 .link {
   font-family: "Catamaran", sans-serif;
   outline: none;
@@ -86,8 +88,6 @@ section {
   margin: 0 auto;
 }
 
-
-
 .hero {
   padding: 100px 0;
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
@@ -95,11 +95,10 @@ section {
 }
 
 
-
 #subtitle {
   font-family: "Ultra", serif;
-  font-size: 1.5em;
-  margin-bottom: .5em;
+  font-size: 1.8em;
+  margin-bottom: .25em;
   text-align: center;
   
 }
@@ -108,23 +107,26 @@ section {
   margin-bottom: 1em;
   font-size: 1.5em;
   font-family: "Catamaran", sans-serif;
-  line-height: 140%;
+  line-height: 1em;
   text-align: center;
 }
 
 .btn {
   font-family: "Catamaran", sans-serif;
-  display: block;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-decoration: none;
   text-transform: uppercase;
   color: #424242;
   font-weight: 900;
   background-color: #b2b0a9;
-  padding: 0.5em 1em;
+  padding: .5em 1em;
   border-radius: 100px;
   text-align: center;
-  margin-bottom: 1em;
+  margin: .4rem auto;
+}
+
+.hero__img {
+  margin-top: 3rem;
 }
 
 .btn:hover,
@@ -148,6 +150,7 @@ section {
   font-weight: 500;
   font-size: 2.5rem;
   margin: 0;
+  margin-bottom: 2rem;
 }
 
 .article p {
@@ -168,13 +171,7 @@ section {
   
 }
 
-.black__text {
-  width: 50%;
-}
-.black__img {
-  width: 50%;
-  margin-left: 50px;
-}
+
 
 .terra--sec {
   background: #824936;
@@ -182,7 +179,7 @@ section {
 }
 
 .terra--content {
-  display: flex;
+
   max-width: 1128px;
   width: 80%;
   margin: 0 auto;
@@ -190,14 +187,9 @@ section {
 }
 
 .terra__text {
-  width: 50%;
   align-self: flex-start;
+}
 
-  margin-left: 50px;
-}
-.terra__img {
-  width: 50%;
-}
 
 
 
@@ -206,6 +198,7 @@ footer {
   padding: 10px 0;
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: #424242;
+  
 }
 
 /* @media (min-width: 600px) {
