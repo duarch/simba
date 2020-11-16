@@ -94,7 +94,7 @@ section {
   color: #424242;
 }
 
-.hero__text {
+.hero__text, .form--link {
   text-align: center;
   margin-top: 3em;
 }
@@ -164,7 +164,7 @@ section {
 
 .black--sec {
   background: #222c2a;
-  padding: 5em 0;
+  padding: 3em 0;
 }
 
 .black--content {
@@ -179,7 +179,7 @@ section {
 
 .terra--sec {
   background: #824936;
-  padding: 5em 0;
+  padding: 3em 0;
 }
 
 .terra--content {
