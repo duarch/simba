@@ -24,6 +24,11 @@ section {
   padding: 4em 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 
 
 .link {
@@ -203,6 +208,10 @@ footer {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: #424242;
 
+}
+
+.foot--links a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 600px) {
