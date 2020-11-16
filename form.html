@@ -30,13 +30,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Keep in touch!</title>
-
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
   </head>
   <body>
+    <!-- Image and text -->
+    <header>
+      <nav class="container navbar navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="Assets/icons/dogicon512.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt=""
+          />
+          <i class="fas fa-arrow-left"></i> Back to page
+        </a>
+      </nav>
+    </header>
     <h1 class="container">Keep in touch</h1>
     <div class="container">
       <form class="needs-validation" novalidate>
@@ -1260,24 +1280,6 @@
       </form>
     </div>
 
-    <script src="/pset8/homepage/simba-master/main.js"></script>
-    <!--// // Example starter JavaScript for disabling form submissions if there are invalid fields-->
-    <!--// (function() {-->
-    <!--//   'use strict';-->
-    <!--//   window.addEventListener('load', function() {-->
-    <!--//     // Fetch all the forms we want to apply custom Bootstrap validation styles to-->
-    <!--//     var forms = document.getElementsByClassName('needs-validation');-->
-    <!--//     // Loop over them and prevent submission-->
-    <!--//     var validation = Array.prototype.filter.call(forms, function(form) {-->
-    <!--//       form.addEventListener('submit', function(event) {-->
-    <!--//         if (form.checkValidity() === false) {-->
-    <!--//           event.preventDefault();-->
-    <!--//           event.stopPropagation();-->
-    <!--//         }-->
-    <!--//         form.classList.add('was-validated');-->
-    <!--//       }, false);-->
-    <!--//     });-->
-    <!--//   }, false);-->
-    <!--// })();-->
+    <script src="main.js"></script>
   </body>
 </html>
